@@ -7,7 +7,7 @@
   <style>
     :root {
       --primary-color: #2c3e50;
-      --secondary-color: #3498db;
+      --secondary-color: #4CAF50; /* Changed from light blue to grass green */
       --accent-color: #e74c3c;
       --light-color: #ecf0f1;
       --dark-color: #34495e;
@@ -201,6 +201,15 @@
         gap: 0.5rem;
       }
     }
+
+    .penguin-img {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 16%;
+      height: auto;
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
@@ -375,5 +384,6 @@
       <p>&copy; 2025 Thomas. All rights reserved.</p>
     </div>
   </footer>
+  <img src="content/penguin.png" alt="Penguin" class="penguin-img">
 </body>
 </html>
