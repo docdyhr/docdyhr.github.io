@@ -387,3 +387,5 @@ private*
 *.log
 # Exclude tempCodeRunnerFile.py
 tempCodeRunnerFile.py
+# Exclude Claude guidance file
+CLAUDE.md
